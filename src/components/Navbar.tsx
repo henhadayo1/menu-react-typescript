@@ -1,11 +1,11 @@
-import Menu from "./Menu";
 import { menuItemsData } from "../data/menu-data";
+import MenuWithStyle from "./MenuWithStyle";
 
 const Navbar: React.FC = () => {
   return (
     <div>
       Menu
-      <Menu items={menuItemsData} />
+      <MenuWithStyle items={menuItemsData} />
     </div>
   );
 };
